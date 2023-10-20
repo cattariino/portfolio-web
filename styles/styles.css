@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    padding: 20px;
+
+}
+
+.navbar.proyectos.container{
+color: blue;
+text-align: center;
+border-radius: 25%;
+}
+
+.navbar{
+    background-color: aquamarine;
+    
+}
