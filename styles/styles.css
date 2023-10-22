@@ -19,3 +19,33 @@ border-radius: 25%;
     background-color: aquamarine;
     
 }
+
+/* presentation */
+
+.presentation{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.presentationImage{
+    width: 30%;
+   margin: 0 auto;
+}
+
+.presentationImg{
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+    
+}
+
+.presentationEmoji{
+    color: red;
+}
+
+.presentationParagraph{
+    text-align: left;
+}
