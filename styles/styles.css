@@ -6,7 +6,7 @@
 
 body{
     padding: 20px;
-
+    
 }
 
 .navbar.proyectos.container{
@@ -48,4 +48,14 @@ border-radius: 25%;
 
 .presentationParagraph{
     text-align: left;
+}
+
+/* education */
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+    background-color: plum;
+    padding: 20px;
 }
