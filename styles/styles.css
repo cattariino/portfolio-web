@@ -9,13 +9,13 @@ body{
     
 }
 
-.navbar.proyectos.container{
+.slider.proyectos.container{
 color: blue;
 text-align: center;
 border-radius: 25%;
 }
 
-.navbar{
+.slider{
     background-color: aquamarine;
     
 }
