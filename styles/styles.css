@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Montserrat:wght@200;400;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +13,7 @@ body{
 
 .slider{
     overflow: hidden;
+    border-radius: 20px;
 }
 .sliderUl{
     animation: slide 12s infinite alternate ease-in-out;
@@ -67,6 +70,61 @@ body{
     width: 100%;
     
 }
+
+.presentationEffect span{
+    position: relative;
+    font-family: "Fredoka One";
+    font-weight: bold;
+    font-size: 40pt;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.presentationEffect span::before{
+    content: var(--l);
+    position: absolute;
+    transform: scale(1.2);
+    filter: blur(15px);
+}
+
+.presentationEffect span::after{
+    content: var(--l);
+    position: absolute;
+    top: 80%;
+    left: 0;
+    filter: blur(10px);
+    transform: rotateX(50deg);
+}
+
+.presentationEffect span:hover{
+    filter: contrast(250%);
+}
+
+.presentationEffect span:nth-child(1){
+   color:  #FFAEBC;
+   margin-right: 15px;
+}
+
+.presentationEffect span:nth-child(2){
+    color:  #A0E7E5;
+    margin-right: 15px;
+ }
+
+ .presentationEffect span:nth-child(3){
+    color:  #B4F8C8;
+ }
+
+ .presentationEffect span:nth-child(4){
+    color:  #FBE7C6;
+ }
+
+ .presentationEffect span:nth-child(5){
+    color:   #A0E7E5;
+ }
+
+ .presentationEffect span:nth-child(6){
+    color:  #FFAEBC;
+ }
 
 .presentationEmoji{
     color: red;
