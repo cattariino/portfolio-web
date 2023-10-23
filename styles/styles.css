@@ -5,17 +5,17 @@
 }
 
 body{
-    padding: 20px;
+    padding: 1.5em 3em;
     
 }
 
-.navbar.proyectos.container{
+.slider.proyectos.container{
 color: blue;
 text-align: center;
 border-radius: 25%;
 }
 
-.navbar{
+.slider{
     background-color: aquamarine;
     
 }
