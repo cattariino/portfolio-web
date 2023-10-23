@@ -2,23 +2,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid black;
 }
 
 body{
     padding: 1.5em 3em;
-    
-}
-
-.slider.proyectos.container{
-color: blue;
-text-align: center;
-border-radius: 25%;
 }
 
 .slider{
-    background-color: aquamarine;
-    
+    width: 1000px;
+    /* overflow: hidden; */
+
+    animation: slide 12s infinite alternate ease-in-out;
 }
+.sliderUl{
+    display: flex;
+    width: 100%;
+}
+
+.sliderIl{
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+    width: 100%;
+}
+
+.sliderImg{
+    width: 100%;
+    display: block;
+}
+
+
+/* @keyframes slide{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+} */
 
 /* presentation */
 
