@@ -10,14 +10,13 @@ body{
 }
 
 .slider{
-    width: 1000px;
-    /* overflow: hidden; */
-
-    animation: slide 12s infinite alternate ease-in-out;
+    overflow: hidden;
 }
 .sliderUl{
+    animation: slide 12s infinite alternate ease-in-out;
     display: flex;
-    width: 100%;
+    width: 300%;
+    height: 300px;
 }
 
 .sliderIl{
@@ -33,7 +32,7 @@ body{
 }
 
 
-/* @keyframes slide{
+@keyframes slide{
     0%{margin-left: 0%;}
     20%{margin-left: 0%;}
 
@@ -43,9 +42,9 @@ body{
     50%{margin-left: -200%;}
     70%{margin-left: -200%;}
 
-    75%{margin-left: -300%;}
-    95%{margin-left: -300%;}
-} */
+    75%{margin-left: 0%;}
+    95%{margin-left: 0%;}
+}
 
 /* presentation */
 
