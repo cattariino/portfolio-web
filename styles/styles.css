@@ -2,6 +2,16 @@
 
 :root{
     --colors-cardBorder: #e7e3eb;
+    --colors-palett1: #00d5ff;
+    --colors-palett2: #acb6ff;;
+    --colors-palett3: #ff9cec;;
+    --colors-palett4: #ffd58b;;
+    --colors-palett5: #f8ff8f;;
+    --color-presentation1: #FFAEBC;
+    --color-presentation2: #A0E7E5;
+    --color-presentation3: #FBE7C6;
+    --color-presentation4: #B4F8C8;
+    --color-emoji:red;
 }
 
 
@@ -49,6 +59,7 @@
 
 .header__a{
     text-decoration: none;
+    color: var(--colors-palett1);
 }
 
 .header__contact{
@@ -153,34 +164,34 @@
 }
 
 .presentationEffect span:nth-child(1){
-   color:  #FFAEBC;
+   color:  var(--color-presentation1);
    margin-right: 15px;
 }
 
 .presentationEffect span:nth-child(2){
-    color:  #A0E7E5;
+    color:  var(--color-presentation2);
     margin-right: 15px;
  }
 
  .presentationEffect span:nth-child(3){
-    color:  #B4F8C8;
+    color:  var(--color-presentation4);
  }
 
  .presentationEffect span:nth-child(4){
-    color:  #FBE7C6;
+    color:  var(--color-presentation3);
  }
 
  .presentationEffect span:nth-child(5){
-    color:   #A0E7E5;
+    color:   var(--color-presentation2);
  }
 
  .presentationEffect span:nth-child(6){
-    color:  #FFAEBC ;
+    color:  var(--color-presentation1);
     
  }
 
 .presentationEmoji{
-    color: red;
+    color: var(--color-emoji);
 }
 
 .presentationParagraph{
