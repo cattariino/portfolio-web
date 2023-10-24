@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Montserrat:wght@200;400;600&display=swap');
 
 :root{
+    --colors-backgroundAlt: #fff;
     --colors-cardBorder: #e7e3eb;
+    --colors-palett1: #00d5ff;
+    --colors-palett2: #acb6ff;;
+    --colors-palett3: #ff9cec;;
+    --colors-palett4: #ffd58b;;
+    --colors-palett5: #f8ff8f;;
+    --color-presentation1: #FFAEBC;
+    --color-presentation2: #A0E7E5;
+    --color-presentation3: #FBE7C6;
+    --color-presentation4: #B4F8C8;
+    --color-emoji:red;
 }
 
 
@@ -49,6 +60,7 @@
 
 .header__a{
     text-decoration: none;
+    color: var(--colors-palett1);
 }
 
 .header__contact{
@@ -61,6 +73,29 @@
     margin: 0 auto;
     width: 20%;
 }
+
+.header__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta{
+    gap: 1em;
+    align-items: center;
+    text-decoration: none;
+    color: var(--colors-backgroundAlt);
+    background-color: var(--colors-palett3);
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset;
+    display: flex;
+    text-decoration: none;
+    padding: 3px 8px;
+    text-align: left;
+}
+
+
 /* slider */
 
 .slider{
@@ -153,34 +188,34 @@
 }
 
 .presentationEffect span:nth-child(1){
-   color:  #FFAEBC;
+   color:  var(--color-presentation1);
    margin-right: 15px;
 }
 
 .presentationEffect span:nth-child(2){
-    color:  #A0E7E5;
+    color:  var(--color-presentation2);
     margin-right: 15px;
  }
 
  .presentationEffect span:nth-child(3){
-    color:  #B4F8C8;
+    color:  var(--color-presentation4);
  }
 
  .presentationEffect span:nth-child(4){
-    color:  #FBE7C6;
+    color:  var(--color-presentation3);
  }
 
  .presentationEffect span:nth-child(5){
-    color:   #A0E7E5;
+    color:   var(--color-presentation2);
  }
 
  .presentationEffect span:nth-child(6){
-    color:  #FFAEBC ;
+    color:  var(--color-presentation1);
     
  }
 
 .presentationEmoji{
-    color: red;
+    color: var(--color-emoji);
 }
 
 .presentationParagraph{
