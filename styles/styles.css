@@ -56,12 +56,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1em;
+    gap: 2em;
 }
 
 .header__a{
     text-decoration: none;
     color: var(--colors-palett1);
+    font-weight: 700;
+    font-size: x-large;
 }
 
 .header__contact{
@@ -142,7 +144,6 @@
 .presentation{
     padding: 20px;
     display: flex;
-    flex-direction: column;
     gap: 10px;
     text-align: center;
 }
@@ -157,6 +158,11 @@
     display: block;
     width: 100%;
     
+}
+
+.presentationEffect{
+   display: grid;
+   align-items: center;
 }
 
 .presentationEffect span{
