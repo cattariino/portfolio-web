@@ -46,6 +46,21 @@
     align-items: center;
     gap: 1em;
 }
+
+.header__a{
+    text-decoration: none;
+}
+
+.header__contact{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header__icon{
+    margin: 0 auto;
+    width: 20%;
+}
 /* slider */
 
 .slider{
