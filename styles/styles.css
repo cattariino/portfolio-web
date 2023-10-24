@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Montserrat:wght@200;400;600&display=swap');
 
+:root{
+    --colors-cardBorder: #e7e3eb;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,9 +12,56 @@
     outline: 1px solid black;
 }
 
-body{
-    padding: 1.5em 3em;
+/* body{
+    font-family: ;
+} */
+
+/* header */
+
+.header__container{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid var(--colors-cardBorder);
 }
+
+.header__Div{
+    display: flex;
+    gap: 2em;
+}
+
+.header__Figure__Photo{
+    width: 07%;
+    
+}
+
+.header__Img{
+    border-radius: 50%;
+    width: 100%;
+    display: block;
+}
+
+.header__Buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.header__a{
+    text-decoration: none;
+}
+
+.header__contact{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header__icon{
+    margin: 0 auto;
+    width: 20%;
+}
+/* slider */
 
 .slider{
     overflow: hidden;
