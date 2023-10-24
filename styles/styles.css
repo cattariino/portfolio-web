@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Montserrat:wght@200;400;600&display=swap');
 
 :root{
+    --colors-backgroundAlt: #fff;
     --colors-cardBorder: #e7e3eb;
     --colors-palett1: #00d5ff;
     --colors-palett2: #acb6ff;;
@@ -72,6 +73,29 @@
     margin: 0 auto;
     width: 20%;
 }
+
+.header__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta{
+    gap: 1em;
+    align-items: center;
+    text-decoration: none;
+    color: var(--colors-backgroundAlt);
+    background-color: var(--colors-palett3);
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset;
+    display: flex;
+    text-decoration: none;
+    padding: 3px 8px;
+    text-align: left;
+}
+
+
 /* slider */
 
 .slider{
