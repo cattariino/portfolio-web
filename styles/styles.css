@@ -11,6 +11,18 @@ body{
     padding: 1.5em 3em;
 }
 
+/* header */
+.header-Figure-Photo{
+    width: 07%;
+}
+
+.header-Img{
+    border-radius: 50%;
+    width: 100%;
+    display: block;
+}
+/* slider */
+
 .slider{
     overflow: hidden;
     border-radius: 20px;
