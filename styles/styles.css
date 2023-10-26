@@ -17,8 +17,9 @@
     --background-color-skills:#f0c2c5;
     --background-color-education: #d26270;
     --background-color-proyects: #b62544;
-    --background-color-footer: #6c0822;
-    --background-gradient:linear-gradient(to right, #f4c4f3, #fc67fa);
+    --background-color-footer: linear-gradient(to left, #f3ebf3, #6c0822);
+    --background-gradient:linear-gradient(to right, #f9f1f0, #b62544);
+    --padding-contenedor:  60px 0;
 }
 
 
@@ -26,7 +27,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
 }
 
 /* body{
@@ -108,6 +109,9 @@
     text-decoration: none;
 }
 
+.pd{
+    padding: 3em;
+}
 /* slider */
 
 .contenedor{
@@ -115,7 +119,6 @@
     overflow: hidden;
     max-height: 1200px;
     width: 80%;
-    padding: var(--padding-container);
 }
 
 .slider{
@@ -279,6 +282,10 @@ display: block;
 }
 
 /* education */
+.education__father{
+    background-image: var(--background-color-footer);
+}
+
 .education {
     display: flex;
     flex-direction: column;
