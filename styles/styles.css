@@ -8,7 +8,7 @@
     --colors-palett3: #ff9cec;;
     --colors-palett4: #ffd58b;;
     --colors-palett5: #f8ff8f;;
-    --color-presentation1: #FFAEBC;
+    --color-presentation1: #d26270;
     --color-presentation2: #A0E7E5;
     --color-presentation3: #FBE7C6;
     --color-presentation4: #B4F8C8;
@@ -17,8 +17,8 @@
     --background-color-skills:#f0c2c5;
     --background-color-education: #d26270;
     --background-color-proyects: #b62544;
-    --background-color-footer: linear-gradient(to left, #f3ebf3, #6c0822);
-    --background-gradient:linear-gradient(to right, #f9f1f0, #b62544);
+    --background-color-footer: linear-gradient(to left, #dfe0e6, #acb6ff);
+    --background-gradient:linear-gradient(to right, #fcedfa, #ff9cec);
     --padding-contenedor:  60px 0;
 }
 
