@@ -13,6 +13,12 @@
     --color-presentation3: #FBE7C6;
     --color-presentation4: #B4F8C8;
     --color-emoji:red;
+    --background-color-presentation: #fadbe0;
+    --background-color-skills:#f0c2c5;
+    --background-color-education: #d26270;
+    --background-color-proyects: #b62544;
+    --background-color-footer: #6c0822;
+    --background-gradient:linear-gradient(to right, #f4c4f3, #fc67fa);
 }
 
 
@@ -98,6 +104,9 @@
     text-align: left;
 }
 
+.a{
+    text-decoration: none;
+}
 
 /* slider */
 
@@ -148,6 +157,9 @@
 }
 
 /* presentation */
+.about__me{
+    background-image: var(--background-gradient);
+}
 
 .presentation{
     padding: 20px;
@@ -237,6 +249,11 @@
     text-align: left;
 }
 
+.container_cta{
+    display: flex;
+    justify-content: center;
+}
+
 /* skills */
 .skillsContainer{
     display: flex;
@@ -260,6 +277,7 @@ margin: 0 auto;
 width: 100%;
 display: block;
 }
+
 /* education */
 .education {
     display: flex;
@@ -270,11 +288,30 @@ display: block;
 }
 
 .educationFigure{
-    width: 40%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .educationImg{
     width: 100%;
     display: block;
+}
+
+.education__name{
+    font-size: 16px;
+}
+
+.education__cards{
+    padding: 1em;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 25px;
+    border-radius: 25px;
 }
