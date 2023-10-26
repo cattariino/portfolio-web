@@ -302,8 +302,10 @@ display: block;
 }
 
 .education__cards{
+    padding: 1em;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr ;
 }
 
 .card{
