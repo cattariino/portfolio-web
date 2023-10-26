@@ -31,7 +31,7 @@
 }
 
 /* body{
-    font-family: ;
+    overflow: hidden;
 } */
 
 /* header */
@@ -159,7 +159,21 @@
     95%{margin-left: 0%;}
 }
 
+/* wave */
+.wave{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.wavetop{
+    fill: #00d5ff;
+
+}
+
 /* presentation */
+
+
 .about__me{
     background-image: var(--background-gradient);
 }
