@@ -160,15 +160,22 @@
 }
 
 /* wave */
+.wave__container{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
 .wave{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
-.wavetop{
-    fill: #00d5ff;
 
+.wavetop{
+    fill: #b62544;
 }
 
 /* presentation */
