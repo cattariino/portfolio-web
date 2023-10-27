@@ -160,16 +160,17 @@
 }
 
 /* wave */
-.wave__container{
+/* .wave__container{
     position: relative;
     width: 100%;
     height: 400px;
     overflow: hidden;
-}
+} */
 
 .wave{
-    position: absolute;
-    top: 0;
+    position: relative;
+    overflow: hidden;
+    top: 10px;
     left: 0;
     width: 100%;
 }
