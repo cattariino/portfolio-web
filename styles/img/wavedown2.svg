@@ -1,0 +1,8 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+<linearGradient id="miGradiente" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="100%" stop-color="#acb6ff" />
+    <stop offset="0%" stop-color="#dfe0e6" />
+  </linearGradient>
+  <path d="M0,96L1440,0L1440,0L0,0Z" fill="url(#miGradiente)" />
+</svg>
