@@ -132,7 +132,7 @@
 
 .slide{
     width: 20%;
-    transition: 2ms;
+    transition: 2s;
 
 }
 
@@ -141,7 +141,7 @@
     height: 500px;
 }
 
-.nap-manual{
+.nav-manual{
     position: absolute;
     width: 1000px;
     margin-top: -40px;
@@ -150,7 +150,7 @@
 }
 
 .manual-btn{
-    border: 2px solid #e5ee5ee5;
+    border: 2px solid #e5e5e5;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -166,17 +166,23 @@
     background-color: #e5e5e5;
 }
 
-#radio1:checked ~ .firts{
+#radio1:checked ~ .first{
     margin-left: 0px;
 }
 
-#radio2:checked ~ .firts{
+#radio2:checked ~ .first{
     margin-left: -20%;
 }
 
-#radio3:checked ~ .firts{
+#radio3:checked ~ .first{
     margin-left: -40%;
 }
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+
 
 .nav-auto{
     position: absolute;
@@ -187,7 +193,7 @@
 }
 
 .nav-auto div{
-    border: 2px solid #e5ee5ee5;
+    border: 2px solid #e5e5e5;
     padding: 5px;
     border-radius: 10px;
     transition: 1ms;
