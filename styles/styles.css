@@ -222,9 +222,7 @@
 
 
 
-.slider__contenedor {
-    padding: 1em;
-}
+
 
 .contenedor{
     margin: 0 auto;
@@ -233,43 +231,8 @@
     width: 80%;
 }
 
-.slider{
-    overflow: hidden;
-    border-radius: 20px;
-}
-.sliderUl{
-    animation: slide 12s infinite alternate ease-in-out;
-    display: flex;
-    width: 300%;
-    height: 300px;
-}
-
-.sliderIl{
-    display: flex;
-    margin: 0 auto;
-    list-style: none;
-    width: 100%;
-}
-
-.sliderImg{
-    width: 100%;
-    display: block;
-}
 
 
-@keyframes slide{
-    0%{margin-left: 0%;}
-    20%{margin-left: 0%;}
-
-    25%{margin-left: -100%;}
-    45%{margin-left: -100%;}
-
-    50%{margin-left: -200%;}
-    70%{margin-left: -200%;}
-
-    75%{margin-left: 0%;}
-    95%{margin-left: 0%;}
-}
 
 /* wave */
 /* .wave__container{
