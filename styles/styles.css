@@ -178,7 +178,7 @@
     margin-left: -40%;
 }
 
-.nap-auto{
+.nav-auto{
     position: absolute;
     display: flex;
     width: 1000px;
@@ -186,14 +186,14 @@
     margin-top: 460px;
 }
 
-.nap-auto div{
+.nav-auto div{
     border: 2px solid #e5ee5ee5;
     padding: 5px;
     border-radius: 10px;
     transition: 1ms;
 }
 
-.nap-auto div:not(:last-child){
+.nav-auto div:not(:last-child){
     margin-right: 40px;
 }
 
