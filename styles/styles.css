@@ -113,6 +113,115 @@
     padding: 3em;
 }
 /* slider */
+.slider{
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2ms;
+
+}
+
+.slide img{
+    width: 100%;
+    height: 500px;
+}
+
+.nap-manual{
+    position: absolute;
+    width: 1000px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #e5ee5ee5;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+
+}
+
+.manual-btn:hover{
+    background-color: #e5e5e5;
+}
+
+#radio1:checked ~ .firts{
+    margin-left: 0px;
+}
+
+#radio2:checked ~ .firts{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .firts{
+    margin-left: -40%;
+}
+
+.nap-auto{
+    position: absolute;
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.nap-auto div{
+    border: 2px solid #e5ee5ee5;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1ms;
+}
+
+.nap-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .nap-auto .auto-btn1{
+    background-color: #e5e5e5;
+}
+
+#radio1:checked ~ .nap-auto .auto-btn2{
+    background-color: #e5e5e5;
+}
+
+#radio1:checked ~ .nap-auto .auto-btn3{
+    background-color: #e5e5e5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .slider__contenedor {
     padding: 1em;
 }
