@@ -27,7 +27,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid black; */
+    outline: 1px solid black;
 }
 
 /* body{
@@ -137,7 +137,7 @@
 
 .slide{
     width: 20%;
-    transition: 2s;
+    transition: 1s ease-in-out;
 
 }
 
@@ -159,7 +159,7 @@
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;
+    transition: 9s;
 }
 
 .manual-btn:not(:last-child){
@@ -196,7 +196,7 @@
     border: 2px solid #e5e5e5;
     padding: 5px;
     border-radius: 10px;
-    transition: 1s;
+    transition: 9s;
 }
 
 .nav-auto div:not(:last-child){
@@ -214,22 +214,6 @@
 #radio3:checked ~ .nap-auto .auto-btn3{
     background-color: #e5e5e5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .contenedor{
     margin: 0 auto;
@@ -364,7 +348,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
+    gap: 4em;
 }
 
 .skillsOption{
@@ -372,7 +356,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    gap: 3em;
+    gap: 5em;
 }
 
 .skillFigure{
@@ -383,6 +367,9 @@ margin: 0 auto;
 .skillImg{
 width: 100%;
 display: block;
+}
+
+.skill--pading{
 }
 
 /* education */
@@ -426,4 +413,5 @@ display: block;
     padding: 25px;
     border-radius: 25px;
     background-color: var(--colors-backgroundAlt);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px -2px 0px inset;
 }

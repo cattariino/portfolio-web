@@ -8,4 +8,3 @@ setInterval(function(){
     }
 },7000)
 
-alert("hii");
