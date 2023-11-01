@@ -417,3 +417,48 @@ display: block;
     background-color: var(--colors-backgroundAlt);
     box-shadow: rgba(0, 0, 0, 0.3) 0px -2px 0px inset;
 }
+
+/* proyects */
+
+.proyects__contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+
+.proyect__card{
+    border-radius: 25px;
+    width: 300px;
+}
+
+.proyect__card--margin-left{
+    align-self:flex-end;
+}
+
+.proyect__titulo{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.proyect__figure{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.proyect__img{
+    width: 100%;
+    display: block;
+}
+
+.tools{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Proyect__tool{
+    width:10%;
+}
