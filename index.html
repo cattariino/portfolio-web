@@ -13,10 +13,10 @@
             <img class="header__Img" src="./styles/img/presentationImg.png" alt="photo">
         </figure>
         <div class="header__Buttons">
-            <a href="#" class="header__a">Sobre Mi</a>
-            <a href="#" class="header__a">Skills</a>
-            <a href="#" class="header__a">Formación</a>
-            <a href="#" class="header__a">Proyectos</a>
+            <a href="#sobreMi" data-section="header__buttons" class="header__a">Sobre Mi</a>
+            <a href="#skills" data-section="header__buttons" class="header__a">Skills</a>
+            <a href="#formación" data-section="header__buttons" class="header__a">Formación</a>
+            <a href="#proyectos" data-section="header__buttons" class="header__a">Proyectos</a>
         </div>
     </div>
     <div class="header__button">
@@ -57,7 +57,7 @@
     <div class="wave">
         <img src="./styles/img/wavetop.svg" alt="wavetop" class="wavetop">
     </div>
-<main class="about__me">
+<main class="about__me" id="sobreMi">
     <div class="presentation contenedor pd">
         <figure class="presentationImage">
             <img src="./styles/img/presentationImg.png" class="presentationImg" alt="">
@@ -76,7 +76,7 @@
                 <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Desarrolladora web Front-End</p>
             </div>
             <div class="container_cta">
-                <a class="a" href="https://drive.google.com/file/d/1vqNvTy7TjiHEr33-bIs6hAqqS5iU5ccJ/view" target="_blank">
+                <a class="a" href="https://drive.google.com/file/d/1nz_awg_P9b5Lt4tfi8EPlTmiUzSHGxSC/view?usp=drive_link" target="_blank">
                     <button class="cta" data-section="home" data-value="cv_button">Descargar CV</button>
                 </a>
             </div>
@@ -87,7 +87,7 @@
 <div class="wave__down">
     <img src="./styles/img/wavedown1.svg" alt="wavedown" class="wavedown">
 </div>
-<main class="skills">
+<main class="skills" id="skills">
     <div class="skillsContainer contenedor pd">
         <h1 class="titles__skills">SKILLS</h1>
         <div class="skillsOption">
@@ -106,7 +106,7 @@
                     <img class="skillImg" src="./styles/img/JS.png" alt="js">
                 </figure>
             </div>
-            <div class="skill ">
+            <div class="skill">
                 <figure class="skillFigure">
                     <img class="skillImg" src="./styles/img/GitHub.png" alt="github">
                 </figure>
@@ -122,9 +122,9 @@
 <div class="wave">
     <img src="./styles/img/wavetop2.svg" alt="wavetop2" class="waveup">
 </div>
-<main class="education__father">
+<main class="education__father" id="formación">
     <div class="education contenedor pd">
-        <h1 class="title">Education</h1>
+        <h1 class="title">Formación</h1>
         <div class="education__cards">
             <div class="card">
                 <figure class="educationFigure"> <img class="educationImg" src="./styles/img/educationImg-1.jpeg" alt="uttec"> </figure>
@@ -164,13 +164,73 @@
 <div class="wave__down">
     <img src="./styles/img/wavedown2.svg" alt="wavedown" class="wavedown">
 </div>
-<main class="proyects">
-    <div class="proyects contenedor">
-        <div class="proyect__card"></div>
-        <div class="proyect__card"></div>
-        <div class="proyect__card"></div>
+<main class="proyects" id="proyectos">
+    <div class="proyects__contenedor contenedor">
+        <h1 class="title">Proyectos</h1>
+        <div class="proyect__card">
+            <h1 class="proyect__titulo">Landing page Pancake Swap</h1>
+            <figure class="proyect__figure">
+                <img class="proyect__img" src="./styles/img/pancakeSwap1.png" alt="slide1">
+            </figure>
+            <div class="tools">
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/HTML.png" alt="html">
+                </figure>
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/CSS.png" alt="css">
+                </figure>
+            </div>
+        </div>
+        <div class="proyect__card proyect__card--margin-left">
+            <h1 class="proyect__titulo">Card Presentation</h1>
+            <figure class="proyect__figure">
+                <img  class="proyect__img" src="./styles/img/cardDesktop.png" alt="slide2">
+            </figure>
+            <div class="tools">
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/HTML.png" alt="html">
+                </figure>
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/CSS.png" alt="css">
+                </figure>
+            </div>
+        </div>
+        <div class="proyect__card ">
+            <h1 class="proyect__titulo">Reto FrontEnd Mentor</h1>
+            <figure class="proyect__figure">
+                <img  class="proyect__img" src="./styles/img/perfumeDesktop.png" alt="slide3">
+            </figure>
+            <div class="tools">
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/HTML.png" alt="html">
+                </figure>
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/CSS.png" alt="css">
+                </figure>
+            </div>
+        </div>
+        <div class="proyect__card proyect__card--margin-left">
+            <h1 class="proyect__titulo">Portfolio Web</h1>
+            <figure class="proyect__figure">
+                <img class="proyect__img" src="./styles/img/proyect4.png" alt="slide1">
+            </figure>
+            <div class="tools">
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/HTML.png" alt="html">
+                </figure>
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/CSS.png" alt="css">
+                </figure>
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/JS.png" alt="js">
+                </figure>
+            </div>
+        </div>
     </div>
 </main>
+<div class="wave__down">
+    <img src="./styles/img/waveproyects.svg" alt="wavedown" class="wavedown">
+</div>
 <footer class="footer">
     <div class="footer contenedor">
         <div class="footerSocial"></div>

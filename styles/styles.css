@@ -19,6 +19,7 @@
     --background-color-proyects: #b62544;
     --background-color-footer: linear-gradient(to left, #dfe0e6, #acb6ff);
     --background-gradient:linear-gradient(to right, #fcedfa, #ff9cec);
+    --background-proyects:linear-gradient(to top, #ffd58b, #fff);
     --padding-contenedor:  60px 0;
 }
 
@@ -30,9 +31,9 @@
     outline: 1px solid black;
 }
 
-/* body{
-    overflow: hidden;
-} */
+body{
+    height: 100vh;
+}
 
 /* header */
 
@@ -218,7 +219,7 @@
 .contenedor{
     margin: 0 auto;
     overflow: hidden;
-    max-height: 1200px;
+    max-height: 1200vh;
     width: 80%;
 }
 
@@ -245,7 +246,9 @@
 
 /* presentation */
 
-
+.a{
+    padding: 20px;
+}
 .about__me{
     background-image: var(--background-gradient);
 }
@@ -369,8 +372,7 @@ width: 100%;
 display: block;
 }
 
-.skill--pading{
-}
+
 
 /* education */
 .education__father{
@@ -414,4 +416,56 @@ display: block;
     border-radius: 25px;
     background-color: var(--colors-backgroundAlt);
     box-shadow: rgba(0, 0, 0, 0.3) 0px -2px 0px inset;
+}
+
+/* proyects */
+
+.proyects{
+    background-image: var(--background-proyects);
+}
+
+.proyects__contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 10px;
+}
+
+
+.proyect__card{
+    background-color: var(--colors-backgroundAlt);
+    border-radius: 25px;
+    width: 400px;
+    box-shadow:10px -16px 5px 0px rgba(0,0,0,0.21) ;
+}
+
+.proyect__card--margin-left{
+    align-self:flex-end;
+}
+
+.proyect__titulo{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.proyect__figure{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.proyect__img{
+    width: 100%;
+    display: block;
+}
+
+.tools{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Proyect__tool{
+    width:10%;
 }
