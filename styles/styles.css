@@ -20,6 +20,7 @@
     --background-color-footer: linear-gradient(to left, #dfe0e6, #acb6ff);
     --background-gradient:linear-gradient(to right, #fcedfa, #ff9cec);
     --background-proyects:linear-gradient(to top, #ffd58b, #fff);
+    --background-footer:linear-gradient( #fff,#b62544);
     --padding-contenedor:  60px 0;
 }
 
@@ -429,6 +430,7 @@ display: block;
     flex-direction: column;
     gap: 3em;
     padding: 10px;
+    text-align: center;
 }
 
 
@@ -468,4 +470,10 @@ display: block;
 
 .Proyect__tool{
     width:10%;
+}
+
+/* footer */
+
+.footer{
+    background-image: var(--background-footer);
 }
