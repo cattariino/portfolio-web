@@ -19,7 +19,7 @@
     --background-color-proyects: #b62544;
     --background-color-footer: linear-gradient(to left, #dfe0e6, #acb6ff);
     --background-gradient:linear-gradient(to right, #fcedfa, #ff9cec);
-    --background-proyects:linear-gradient(to top, #ffd58b, #f5f5f5);
+    --background-proyects:linear-gradient(to top, #ffd58b, #fff);
     --padding-contenedor:  60px 0;
 }
 

@@ -13,10 +13,10 @@
             <img class="header__Img" src="./styles/img/presentationImg.png" alt="photo">
         </figure>
         <div class="header__Buttons">
-            <a href="#" class="header__a">Sobre Mi</a>
-            <a href="#" class="header__a">Skills</a>
-            <a href="#" class="header__a">Formación</a>
-            <a href="#" class="header__a">Proyectos</a>
+            <a href="#sobreMi" data-section="header__buttons" class="header__a">Sobre Mi</a>
+            <a href="#skills" data-section="header__buttons" class="header__a">Skills</a>
+            <a href="#formación" data-section="header__buttons" class="header__a">Formación</a>
+            <a href="#proyectos" data-section="header__buttons" class="header__a">Proyectos</a>
         </div>
     </div>
     <div class="header__button">
@@ -57,7 +57,7 @@
     <div class="wave">
         <img src="./styles/img/wavetop.svg" alt="wavetop" class="wavetop">
     </div>
-<main class="about__me">
+<main class="about__me" id="sobreMi">
     <div class="presentation contenedor pd">
         <figure class="presentationImage">
             <img src="./styles/img/presentationImg.png" class="presentationImg" alt="">
@@ -87,7 +87,7 @@
 <div class="wave__down">
     <img src="./styles/img/wavedown1.svg" alt="wavedown" class="wavedown">
 </div>
-<main class="skills">
+<main class="skills" id="skills">
     <div class="skillsContainer contenedor pd">
         <h1 class="titles__skills">SKILLS</h1>
         <div class="skillsOption">
@@ -122,9 +122,9 @@
 <div class="wave">
     <img src="./styles/img/wavetop2.svg" alt="wavetop2" class="waveup">
 </div>
-<main class="education__father">
+<main class="education__father" id="formación">
     <div class="education contenedor pd">
-        <h1 class="title">Education</h1>
+        <h1 class="title">Formación</h1>
         <div class="education__cards">
             <div class="card">
                 <figure class="educationFigure"> <img class="educationImg" src="./styles/img/educationImg-1.jpeg" alt="uttec"> </figure>
@@ -164,8 +164,9 @@
 <div class="wave__down">
     <img src="./styles/img/wavedown2.svg" alt="wavedown" class="wavedown">
 </div>
-<main class="proyects">
+<main class="proyects" id="proyectos">
     <div class="proyects__contenedor contenedor">
+        <h1 class="title">Proyectos</h1>
         <div class="proyect__card">
             <h1 class="proyect__titulo">Landing page Pancake Swap</h1>
             <figure class="proyect__figure">
@@ -211,7 +212,7 @@
         <div class="proyect__card proyect__card--margin-left">
             <h1 class="proyect__titulo">Portfolio Web</h1>
             <figure class="proyect__figure">
-                <img class="proyect__img" src="./styles/img/pancakeSwap1.png" alt="slide1">
+                <img class="proyect__img" src="./styles/img/proyect4.png" alt="slide1">
             </figure>
             <div class="tools">
                 <figure class="Proyect__tool">
@@ -227,6 +228,9 @@
         </div>
     </div>
 </main>
+<div class="wave__down">
+    <img src="./styles/img/waveproyects.svg" alt="wavedown" class="wavedown">
+</div>
 <footer class="footer">
     <div class="footer contenedor">
         <div class="footerSocial"></div>
