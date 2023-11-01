@@ -245,7 +245,9 @@
 
 /* presentation */
 
-
+.a{
+    padding: 20px;
+}
 .about__me{
     background-image: var(--background-gradient);
 }
