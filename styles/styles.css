@@ -8,6 +8,8 @@
     --colors-palett3: #ff9cec;;
     --colors-palett4: #ffd58b;;
     --colors-palett5: #f8ff8f;;
+    ---color-dark-1: rgb(20,20,20);
+    --colors-backgroundDisabled: #3c3742;
     --color-presentation1: #d26270;
     --color-presentation2: #A0E7E5;
     --color-presentation3: #FBE7C6;
@@ -17,6 +19,8 @@
     --background-color-skills:#f0c2c5;
     --background-color-education: #d26270;
     --background-color-proyects: #b62544;
+    --background-gradientViolet: linear-gradient(180deg,#6c4999,#6d4db2);
+    --background-gradientVioletAlt: linear-gradient(180deg,#434575,#66578d);
     --background-color-footer: linear-gradient(to left, #dfe0e6, #acb6ff);
     --background-gradient:linear-gradient(to right, #fcedfa, #ff9cec);
     --background-proyects:linear-gradient(to top, #ffd58b, #fff);
@@ -94,6 +98,28 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1em;
+}
+
+.header__button div:last-child::before{
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    left: 0%;
+    right: unset;
+}
+
+.header__button div:last-child.active::before{
+    right: 0;
+    left: unset;
+    border: solid thin #fff;
+}
+
+.header__button div:last-child.active {
+    background-color: gray;
 }
 
 .cta{
@@ -118,6 +144,37 @@ body{
 .pd{
     padding: 3em;
 }
+
+/* switch */
+body.active .header__container {
+    background-color: var(---color-dark-1);
+}
+
+body.active{
+    background-color: var(---color-dark-1);
+}
+
+.switch{
+    width: 60px;
+    height: 30px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 100px;
+    background-color: var(--colors-palett1);
+}
+
+.switch img{
+    color: var(--colors-palett4);
+}
+
+.switch__img{
+    width: 100%;
+    display: block;
+}
+
 /* slider */
 .slider__contenedor{
     padding: 20px;
