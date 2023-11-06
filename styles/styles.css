@@ -108,6 +108,16 @@ body{
     right: unset;
 }
 
+.header__button div:last-child.active::before{
+    right: 0;
+    left: unset;
+    border: solid thin #fff;
+}
+
+.header__button div:last-child.active {
+    background-color: gray;
+}
+
 .cta{
     gap: 1em;
     align-items: center;
@@ -132,6 +142,13 @@ body{
 }
 
 /* switch */
+body.active .header__container {
+    background-color: #514b4b;
+}
+
+body.active{
+    background-color: #514b4b;
+}
 
 .switch{
     width: 60px;

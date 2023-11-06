@@ -8,3 +8,8 @@ setInterval(function(){
     }
 },7000)
 
+const swith = document.querySelector('.switch');
+swith.addEventListener("click", function () {
+        swith.classList.toggle("active");
+        document.body.classList.toggle("active");
+    })
