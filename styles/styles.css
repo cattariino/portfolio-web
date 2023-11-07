@@ -20,7 +20,7 @@
     --background-color-education: #d26270;
     --background-color-proyects: #b62544;
     --background-gradientViolet: linear-gradient(180deg,#6c4999,#6d4db2);
-    --background-gradientVioletAlt: linear-gradient(180deg,#5C038C,#1B1734);
+    --background-gradientVioletAlt: linear-gradient(180deg,#5C038C,rgb(20,20,20));
     --background-gradient-darkAboutMe: linear-gradient(to right,#5C038C,#896FBC);
     --background-gradient-darkContac: linear-gradient(rgb(20,20,20),#896FBC);
     --background-color-footer: linear-gradient(to left, #dfe0e6, #acb6ff);
