@@ -222,6 +222,10 @@ body.active .wave__dark{
     display: unset;
 }
 
+body.active .wavedarkk{
+    display: block;
+}
+
 .switch{
     width: 60px;
     height: 30px;
@@ -355,26 +359,20 @@ body.active .wave__dark{
 
 
 
-
 /* wave */
-/* .wave__container{
-    position: relative;
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-} */
 
 .wave{
     position: relative;
     overflow: hidden;
-    top: 10px;
-    left: 0;
     width: 100%;
     display: unset;
 }
+.wavetop{
+    display: block;
+}
 
-.wave__down{
-    top:0;
+.wavedown{
+    display: block;
 }
 
 .wave__dark{
