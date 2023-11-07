@@ -226,6 +226,10 @@ body.active .wavedarkk{
     display: block;
 }
 
+body.active .presentation__paragraph{
+    color: var(--colors-backgroundAlt);
+}
+
 .switch{
     width: 60px;
     height: 30px;
@@ -391,9 +395,11 @@ body.active .wavedarkk{
 .presentation{
     padding: 20px;
     display: flex;
+    flex-direction: row;
     gap: 10px;
     text-align: center;
 }
+
 
 .presentation__paragraph{
     text-align: center;
@@ -622,6 +628,7 @@ display: block;
 
 .footer{
     background-image: var(--background-footer);
+    text-align: center;
 }
 
 .footer__social{
@@ -643,4 +650,20 @@ display: block;
 
 .a--color{
     color: var(--colors-backgroundAlt);
+}
+
+@media (max-width:800px){
+    .presentation {
+        padding: 20px;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .presentationImg {
+        border-radius: 50%;
+        display: block;
+        width: 100%;
+        margin: 0 auto;}
 }
