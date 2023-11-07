@@ -43,7 +43,6 @@ html{
 }
 
 body{
-    height: 100vh;
 }
 
 /* header */
@@ -53,6 +52,7 @@ body{
     justify-content: space-between;
     padding: 10px;
     border-bottom: 1px solid var(--colors-cardBorder);
+    overflow: hidden;
 }
 
 .header__Div{
@@ -356,9 +356,9 @@ body.active .presentation__paragraph{
 
 .contenedor{
     margin: 0 auto;
-    overflow: hidden;
     max-height: 1200vh;
     width: 80%;
+    overflow: hidden;
 }
 
 
@@ -666,4 +666,35 @@ display: block;
         display: block;
         width: 100%;
         margin: 0 auto;}
+
+}
+
+@media (max-width:400px){
+    .skillFigure{
+        width: 100%;
+    }
+    .skillsOption{
+        grid-template-columns: 1fr 1fr;
+    }
+    .social__paragraph{
+        display: none;
+    }
+    .nav-manual{
+        width: 65%;
+    }
+    .nav-auto{
+        width: 65%;
+    }
+    .slide img{
+        padding: 10px;
+    }
+    .presentationEffect span{
+        font-size:20px;
+    }
+    .presentationImage{
+        width: 70%;
+    }
+    .presentation__paragraph{
+        display: none;
+    }
 }
