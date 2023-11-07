@@ -697,4 +697,32 @@ display: block;
     .presentation__paragraph{
         display: none;
     }
+    .header__Buttons{
+        display: none;
+    }
+    .header__Figure__Photo{
+        width: 50%;
+    }
+    .paragraph{
+        display: none;
+    }
+    .cta{
+        border-radius: 15px;
+    }
+    .education__cards{
+        grid-template-columns: 1fr;
+    }
+    .proyect__card{
+        width: auto;
+    }
+    .footer__social{
+        display: flex;
+        justify-content: space-between;
+    }
+    .social__figure{
+        width: 90%;
+    }
+    .footer .title{
+        display: none;
+    }
 }
