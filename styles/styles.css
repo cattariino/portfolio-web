@@ -20,7 +20,9 @@
     --background-color-education: #d26270;
     --background-color-proyects: #b62544;
     --background-gradientViolet: linear-gradient(180deg,#6c4999,#6d4db2);
-    --background-gradientVioletAlt: linear-gradient(180deg,#434575,#66578d);
+    --background-gradientVioletAlt: linear-gradient(180deg,#5C038C,#1B1734);
+    --background-gradient-darkAboutMe: linear-gradient(to right,#5C038C,#896FBC);
+    --background-gradient-darkContac: linear-gradient(rgb(20,20,20),#896FBC);
     --background-color-footer: linear-gradient(to left, #dfe0e6, #acb6ff);
     --background-gradient:linear-gradient(to right, #fcedfa, #ff9cec);
     --background-proyects:linear-gradient(to top, #ffd58b, #fff);
@@ -150,8 +152,74 @@ body.active .header__container {
     background-color: var(---color-dark-1);
 }
 
-body.active{
+body.active .header__a{
+    color: var(--colors-palett2);
+}
+
+body.active { 
     background-color: var(---color-dark-1);
+    /* background-repeat:no-repeat; */
+    background-size: cover;
+}
+
+body.active .header__container{
+    border-bottom: none;
+}
+
+body.active .card{ 
+    background-image: var(--background-gradient-darkAboutMe);
+    color: var(--colors-backgroundAlt);
+}
+
+body.active .proyects{
+    background-image: var(--background-gradient-darkAboutMe);
+}
+
+
+
+body.active .footer{
+    background-image: var(--background-gradient-darkContac);
+}
+
+body.active .education__father{
+    background-image: var(--background-gradientVioletAlt);
+}
+
+body.active .proyect__card{
+    background-image: var(--background-gradient-darkAboutMe);
+    border: solid thin gray;
+    color: var(--colors-backgroundAlt);
+}
+
+body.active .about__me{
+    background-image: var(--background-gradient-darkAboutMe);
+}
+
+body.active .skillsContainer{
+    padding: 2rem;
+    margin-top: 1em;
+    border-radius: 15px;
+}
+
+body.active .title{
+    color: var(--colors-backgroundAlt);
+}
+
+body.active .cta{
+    background-image: var(--background-gradient-darkAboutMe);
+}
+
+body.active .wave{
+   background-image: var(--background-gradient-darkContac);
+   display: none;
+}
+
+body.active .wave__down{
+    display: none;
+}
+
+body.active .wave__dark{
+    display: unset;
 }
 
 .switch{
@@ -302,9 +370,16 @@ body.active{
     top: 10px;
     left: 0;
     width: 100%;
+    display: unset;
 }
 
+.wave__down{
+    top:0;
+}
 
+.wave__dark{
+    display: none;
+}
 
 /* presentation */
 
@@ -423,7 +498,6 @@ body.active{
     gap: 4em;
     padding: 1em;
     margin-bottom: 8em;
-    margin-top: -10em;
 }
 
 .skillsOption{
@@ -526,11 +600,13 @@ display: block;
     width: 90%;
     margin: 0 auto;
     padding: 10px;
+    border-radius: 15px;
 }
 
 .proyect__img{
     width: 100%;
     display: block;
+    border-radius: 15px;
 }
 
 .tools{
