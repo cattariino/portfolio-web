@@ -43,7 +43,6 @@ html{
 }
 
 body{
-    height: 100vh;
 }
 
 /* header */
@@ -53,6 +52,7 @@ body{
     justify-content: space-between;
     padding: 10px;
     border-bottom: 1px solid var(--colors-cardBorder);
+    overflow: hidden;
 }
 
 .header__Div{
@@ -226,6 +226,10 @@ body.active .wavedarkk{
     display: block;
 }
 
+body.active .presentation__paragraph{
+    color: var(--colors-backgroundAlt);
+}
+
 .switch{
     width: 60px;
     height: 30px;
@@ -352,9 +356,9 @@ body.active .wavedarkk{
 
 .contenedor{
     margin: 0 auto;
-    overflow: hidden;
     max-height: 1200vh;
     width: 80%;
+    overflow: hidden;
 }
 
 
@@ -391,9 +395,11 @@ body.active .wavedarkk{
 .presentation{
     padding: 20px;
     display: flex;
+    flex-direction: row;
     gap: 10px;
     text-align: center;
 }
+
 
 .presentation__paragraph{
     text-align: center;
@@ -622,6 +628,7 @@ display: block;
 
 .footer{
     background-image: var(--background-footer);
+    text-align: center;
 }
 
 .footer__social{
@@ -643,4 +650,94 @@ display: block;
 
 .a--color{
     color: var(--colors-backgroundAlt);
+}
+
+@media (max-width:800px){
+    .presentation {
+        padding: 20px;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .presentationImg {
+        border-radius: 50%;
+        display: block;
+        width: 100%;
+        margin: 0 auto;}
+
+}
+
+@media (max-width:450px){
+    .skillFigure{
+        width: 100%;
+    }
+    .skillsOption{
+        grid-template-columns: 1fr 1fr;
+    }
+    .social__paragraph{
+        display: none;
+    }
+    .nav-manual{
+        width: 65%;
+    }
+    .nav-auto{
+        width: 65%;
+    }
+    .slide img{
+        padding: 10px;
+    }
+    .presentationEffect span{
+        font-size:20px;
+    }
+    .presentationImage{
+        width: 70%;
+    }
+    .presentation__paragraph{
+        display: none;
+    }
+    .header__Buttons{
+        display: none;
+    }
+    .header__Figure__Photo{
+        width: 30%;
+    }
+    .paragraph{
+        display: none;
+    }
+    .cta{
+        border-radius: 15px;
+    }
+    .education__cards{
+        grid-template-columns: 1fr;
+    }
+    .proyect__card{
+        width: auto;
+    }
+    .footer__social{
+        display: flex;
+        justify-content: space-between;
+    }
+    .social__figure{
+        width: 90%;
+    }
+    .footer .title{
+        display: none;
+    }
+}
+
+@media (max-width:900px){
+    .header__Buttons{
+        display: none;
+    }
+    .header__Figure__Photo{
+        width: 20%;
+    }
+    .education__cards{
+        grid-template-columns: 1fr;
+    }
+    .proyect__card{
+        width: auto;
+    }
 }
