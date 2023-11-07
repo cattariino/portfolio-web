@@ -669,7 +669,7 @@ display: block;
 
 }
 
-@media (max-width:400px){
+@media (max-width:450px){
     .skillFigure{
         width: 100%;
     }
@@ -701,7 +701,7 @@ display: block;
         display: none;
     }
     .header__Figure__Photo{
-        width: 50%;
+        width: 30%;
     }
     .paragraph{
         display: none;
@@ -724,5 +724,20 @@ display: block;
     }
     .footer .title{
         display: none;
+    }
+}
+
+@media (max-width:900px){
+    .header__Buttons{
+        display: none;
+    }
+    .header__Figure__Photo{
+        width: 20%;
+    }
+    .education__cards{
+        grid-template-columns: 1fr;
+    }
+    .proyect__card{
+        width: auto;
     }
 }
