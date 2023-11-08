@@ -58,10 +58,11 @@ body{
 .header__Div{
     display: flex;
     gap: 2em;
+    align-items: center;
 }
 
 .header__Figure__Photo{
-    width: 07%;
+    width: 10%;
     
 }
 
@@ -75,14 +76,15 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2em;
+    gap: 20px;
+    text-align: center;
 }
 
 .header__a{
     text-decoration: none;
     color: var(--colors-palett1);
     font-weight: 700;
-    font-size: x-large;
+    font-size: 20px;
 }
 
 .header__contact{
@@ -410,7 +412,7 @@ body.active .presentation__paragraph{
 
 .presentationImage{
     width: 30%;
-   margin: 0 auto;
+    margin: 0 auto;
 }
 
 .presentationImg{
@@ -652,6 +654,32 @@ display: block;
     color: var(--colors-backgroundAlt);
 }
 
+/* configuratoions */
+.configuration{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flags{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.flags__items{
+    width: 6%;
+}
+
+.flags__img{
+    width: 100%;
+}
+
+
+
 @media (max-width:800px){
     .presentation {
         padding: 20px;
@@ -700,9 +728,7 @@ display: block;
     .header__Buttons{
         display: none;
     }
-    .header__Figure__Photo{
-        width: 30%;
-    }
+    
     .paragraph{
         display: none;
     }
@@ -725,14 +751,18 @@ display: block;
     .footer .title{
         display: none;
     }
+    .flags__items {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .header__Figure__Photo{
+        width: 50%;
+    }
 }
 
 @media (max-width:900px){
     .header__Buttons{
         display: none;
-    }
-    .header__Figure__Photo{
-        width: 20%;
     }
     .education__cards{
         grid-template-columns: 1fr;
@@ -740,4 +770,12 @@ display: block;
     .proyect__card{
         width: auto;
     }
+    .paragraph__gratefull{
+        display: none;
+    }
+    .presentationImage {
+        display: block;
+        width: 60%;
+    }
+
 }
