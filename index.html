@@ -13,15 +13,25 @@
             <img class="header__Img" src="./styles/img/presentationImg.png" alt="photo">
         </figure>
         <div class="header__Buttons">
-            <a href="#sobreMi" data-section="header__buttons" class="header__a">Sobre Mi</a>
-            <a href="#skills" data-section="header__buttons" class="header__a">Skills</a>
-            <a href="#formación" data-section="header__buttons" class="header__a">Formación</a>
-            <a href="#proyectos" data-section="header__buttons" class="header__a">Proyectos</a>
+            <a href="#sobreMi"  class="header__a" data-section="menu" data-value="seccion">Sobre Mi</a>
+            <a href="#skills"  class="header__a" data-section="menu" data-value="seccion-1">Skills</a>
+            <a href="#formación"  class="header__a" data-section="menu" data-value="seccion-2">Formación</a>
+            <a href="#proyectos" class="header__a" data-section="menu" data-value="seccion-3">Proyectos</a>
+        </div>
+    </div>
+     <div class="configuration">
+        <div class="flags">
+            <div class="flags__items" data-language="es">
+                <img class="flags__img" src="./styles/img/espana.png" alt="es">
+            </div>
+            <div class="flags__items" data-language="en">
+                <img class="flags__img" src="./styles/img/mapa-de-estados-unidos.png" alt="en">
+            </div>
         </div>
     </div>
     <div class="header__button">
         <a href="#contacto" class="header__cta cta"> <img class="svg" src="./styles/img/search.svg" alt="search"> 
-        <p class="paragraph">Contacto</p>
+        <p class="paragraph" data-section="menu" data-value="boton">Contacto</p>
         </a>
         <div class="switch">
             <figure class="switch__figure">
@@ -86,13 +96,13 @@
                 <span class="presentationEmoji">&#10084;</span>
             </div>
             <div>
-                <p class="presentation__roll" data-section="home" data-value="home_text-3">Desarrolladora web Front-End</p>
-                <p class="presentation__paragraph" data-section="home" data-value="home_text-3">Ing. en biotecnología y estudiante autodidacta de
+                <p class="presentation__roll" data-section="sobre-mi" data-value="rol" >Desarrolladora web Front-End</p>
+                <p class="presentation__paragraph" data-section="sobre-mi" data-value="descripcion">Ing. en biotecnología y estudiante autodidacta de
                     Desarrollo Web enfocado en programación Frontend. Aspiro conseguir empleo en el mundo del Desarrollo Web, adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional. Soy una persona empática, con competencias enfocadas en el trabajo en equipo, comunicación asertiva, resolución de problemas, responsable y proactiva, me gusta aprender de los demás y superarme continuamente.</p>
             </div>
             <div class="container_cta">
                 <a class="a" href="https://drive.google.com/file/d/1JRyUtlcgazsSMUGnke8HnHY8V_NACHHB/view?usp=sharing" target="_blank">
-                    <button class="cta" data-section="home" data-value="cv_button">Descargar CV</button>
+                    <button class="cta" data-section="sobre-mi" data-value="boton">Descargar CV</button>
                 </a>
             </div>
         </div>
@@ -273,7 +283,7 @@
             <div class="footerSocial">
                 <a class="a a--color" href="">
                     <figure class="social__figure">
-                       <img class="social__img" src="./styles/img/mail.svg" alt="github">
+                       <img class="social__img" src="./styles/img/mail.svg" alt="mail">
                     </figure>
                     <p class="social__paragraph">gabriella.cattarino@gmail.com</p>
                 </a> 
@@ -281,7 +291,7 @@
             <div class="footerSocial">
                 <a class="a a--color" href="https://www.linkedin.com/in/morales-catarino-gabriela-020098297/">
                     <figure class="social__figure">
-                       <img class="social__img" src="./styles/img/linkedin.svg" alt="github">
+                       <img class="social__img" src="./styles/img/linkedin.svg" alt="linkedin">
                     </figure>
                     <p class="social__paragraph">Morales Catarino Gabriela</p>
                 </a> 
@@ -289,15 +299,16 @@
             <div class="footerSocial">
                 <a class="a a--color" href="https://twitter.com/MoralesCat97871">
                     <figure class="social__figure">
-                       <img class="social__img" src="./styles/img/x-twitte.svg" alt="github">
+                       <img class="social__img" src="./styles/img/x-twitte.svg" alt="twitter">
                     </figure>
                     <p class="social__paragraph">@MoralesCat</p>
                 </a> 
             </div>
         </div>
+        <p class="paragraph__gratefull">Diseñado por  
+            <a class="a--color" href="#https://github.com/cattariino">@cattariino</a>
+        </p>
     </div>
-</footer>
-<footer class="configuration">
 </footer>
 <script src="./JS/index.js"></script>
 </body>
