@@ -1,3 +1,48 @@
+const spanishLanguage = {
+    menu: {
+        seccion: 'Sobre mi',
+        "seccion-1": "Skills",
+        "seccion-2": "Formación",
+        "seccion-3": "Proyectos",
+        "boton": "Contacto"
+    },
+
+    "sobre-mi": {
+        "saludo": "hola soy gabriela",
+        "rol": "desarrolladora web Frontend",
+        "descripcion": "Ing. en biotecnología y estudiante autodidacta de Desarrollo Web enfocado en programación Frontend. Aspiro conseguir empleo en el mundo del Desarrollo Web, adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional. Soy una persona empática, con competencias enfocadas en el trabajo en equipo, comunicación asertiva, resolución de problemas, responsable y proactiva, me gusta aprender de los demás y superarme continuamente.",
+        "boton": "Descargar CV"
+    },
+    "contacto": {
+        "diseno": "diseñado por @cattariino"
+    }
+}
+
+const englishLanguage = {
+    "menu": {
+        "seccion": "About me",
+        "seccion-1": "Skills",
+        "seccion-2": "Training",
+        "seccion-3": "Projects",
+        "boton": "Contact"
+    },
+
+    "sobre-mi": {
+        "saludo": "hello, I'm Gabriela",
+        "rol": "Frontend web developer",
+        "descripcion": "Ing. in biotechnology and self-taught student of Web Development focused on Frontend programming. I aspire to get a job in the world of Web Development, acquire experience, new knowledge and strengthen my professional life. I am an empathetic person, with skills focused on teamwork, assertive communication, problem solving, responsible and proactive, I like to learn from others and continually improve myself.",
+        "boton": "Download CV"
+    },
+    "contacto": {
+        "diseno": "designed by @cattariino"
+    }
+}
+
+const languages = {
+    es: spanishLanguage,
+    en: englishLanguage,
+}
+
 let counter = 1;
 
 setInterval(function () {
@@ -17,10 +62,9 @@ swith.addEventListener("click", function () {
 const flagsElement = document.querySelector(".flags");
 const textsToChange = document.querySelectorAll("[data-section]");
 
-const changeLanguage = async language => {
-    const requestJson = await fetch(`../languages/${language}.json`)
-    const texts = await requestJson.json()
-    console.log({ texts });
+const changeLanguage = language => {
+
+    const texts = languages[language];
 
     for (const textToChange of textsToChange) {
         const section = textToChange.dataset.section;
