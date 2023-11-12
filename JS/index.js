@@ -53,11 +53,29 @@ setInterval(function () {
     }
 }, 7000)
 
-const swith = document.querySelector('.switch');
-swith.addEventListener("click", function () {
-    swith.classList.toggle("active");
-    document.body.classList.toggle("active");
-})
+const interruptor = document.querySelector('.switch');
+
+interruptor.addEventListener('click', function () {
+    interruptor.classList.toggle('active');
+    document.body.classList.toggle('active');
+    const modoOscuroActual = document.body.classList.contains('active') ? 'activado' : 'desactivado';
+    localStorage.setItem('modoOscuro', modoOscuroActual);
+});
+
+function activarModoOscuro() {
+    interruptor.classList.add('active');
+    document.body.classList.add('active');
+}
+
+function desactivarModoOscuro() {
+    interruptor.classList.remove('active');
+    document.body.classList.remove('active');
+}
+
+const modoOscuroGuardado = localStorage.getItem('modoOscuro');
+if (modoOscuroGuardado === 'activado') {
+    activarModoOscuro();
+}
 
 const flagsElement = document.querySelector(".flags");
 const textsToChange = document.querySelectorAll("[data-section]");
