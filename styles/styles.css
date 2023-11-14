@@ -141,6 +141,14 @@ body{
     text-align: left;
 }
 
+.boton-en{
+    display: none;
+}
+
+.boton-es{
+    display: unset;
+}
+
 .a{
     text-decoration: none;
 }
@@ -231,6 +239,15 @@ body.active .wavedarkk{
 body.active .presentation__paragraph{
     color: var(--colors-backgroundAlt);
 }
+
+body.active .boton-es{
+    display: none;
+}
+
+body.active .boton-en{
+    display: unset;
+}
+
 
 .switch{
     width: 60px;
