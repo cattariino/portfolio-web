@@ -55,6 +55,11 @@ body{
     overflow: hidden;
 }
 
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+}
+
 .header__Div{
     display: flex;
     gap: 2em;
@@ -440,8 +445,8 @@ body.active .boton-en{
 }
 
 .presentationEffect{
-   display: grid;
-   align-items: center;
+    display: grid;
+    align-items: center;
 }
 
 .presentationEffect span{
@@ -541,6 +546,13 @@ width: 100%;
 display: block;
 }
 
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
 
 
 /* education */
