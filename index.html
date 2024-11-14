@@ -4,8 +4,345 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriela Catarino</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+<header class="header__container">
+    <div class="header__Div">
+        <figure class="header__Figure__Photo">
+            <img class="header__Img" src="./styles/img/presentationImg.png" alt="photo">
+        </figure>
+        <div class="header__Buttons">
+            <a href="#sobreMi"  class="header__a" data-section="menu" data-value="seccion">Sobre Mi</a>
+            <a href="#skills"  class="header__a" data-section="menu" data-value="seccion-1">Skills</a>
+            <a href="#formación"  class="header__a" data-section="menu" data-value="seccion-2">Formación</a>
+            <a href="#proyectos" class="header__a" data-section="menu" data-value="seccion-3">Proyectos</a>
+        </div>
+    </div>
+     <div class="configuration">
+        <div class="flags">
+            <div class="flags__items" data-language="es">
+                <img class="flags__img" src="./styles/img/espana.png" alt="es">
+            </div>
+            <div class="flags__items" data-language="en">
+                <img class="flags__img" src="./styles/img/mapa-de-estados-unidos.png" alt="en">
+            </div>
+        </div>
+    </div>
+    <div class="header__button">
+        <a href="#contacto" class="header__cta cta"> <img class="svg" src="./styles/img/search.svg" alt="search"> 
+        <p class="paragraph" data-section="menu" data-value="boton">Contacto</p>
+        </a>
+        <div class="switch">
+            <figure class="switch__figure">
+                <img src="./styles/img/ligth.svg" alt="moon" class="switch__img">
+            </figure>
+            <figure class="switch__figure">
+                <img src="./styles/img/dark.svg" alt="sun" class="switch__img">
+            </figure>
+        </div>
+    </div>
+</header>
+<main class="slider__contenedor contenedor">
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" id="radio1"  name="radio-btn">
+            <input type="radio" id="radio2" name="radio-btn">
+            <input type="radio" id="radio3" name="radio-btn">
+
+            <div class="slide first" >
+                <img src="./styles/img/pancakeSwap1.png" alt="slide1">
+            </div>
+            <div class="slide" >
+                <img src="./styles/img/proyecto5dos.png" alt="slide2">
+            </div>
+            <div class="slide" >
+                <img src="./styles/img/proyecto1dos.png" alt="slide3">
+            </div>
+            <div class="nav-auto">
+                <div class="auto-btn-1"></div>
+                <div class="auto-btn-2"></div>
+                <div class="auto-btn-3"></div>
+            </div>
+            
+            
+        </div>
+        <div class="nav-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+    </div>
+</main>
+    <div class="wave">
+        <img src="./styles/img/wavetop.svg" alt="wavetop" class="wavetop path">
+    </div>
+    <div class="wave__dark ">
+        <img src="./styles/img/waveDarkProyects.svg" alt="wavedown" class="wavedarkk">
+    </div>
+<main class="about__me" id="sobreMi">
+    <div class="presentation contenedor pd">
+        <figure class="presentationImage">
+            <img src="./styles/img/presentationImg.png" class="presentationImg" alt="">
+        </figure>
+        <div class="presentationEffect">
+            <div class="presentation__spans">
+                <span class="--l Hi">Hi!</span>
+                <span class="--l Im">Im</span>
+                <span class="--l Ga">Ga</span>
+                <span class="--l br">br</span>
+                <span class="--l ie">ie</span>
+                <span class="--l la">la</span>
+                <span class="presentationEmoji">&#10084;</span>
+            </div>
+            <div>
+                <p class="presentation__roll" data-section="sobre-mi" data-value="rol" >Desarrolladora web Front-End</p>
+                <p class="presentation__paragraph" data-section="sobre-mi" data-value="descripcion">Ing. en biotecnología y estudiante autodidacta de
+                    Desarrollo Web enfocado en programación Frontend. Aspiro conseguir empleo en el mundo del Desarrollo Web, adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional. Soy una persona empática, con competencias enfocadas en el trabajo en equipo, comunicación asertiva, resolución de problemas, responsable y proactiva, me gusta aprender de los demás y superarme continuamente.</p>
+            </div>
+            <div class="container_cta">
+                <a class="a boton-es" href="https://drive.google.com/file/d/1FVS0Gv9QVUyVTNGwUSPqbUfgwovtRfmv/view?usp=drive_link" target="_blank">
+                    <button class="cta boton-es " data-section="sobre-mi" data-value="boton">Descargar CV</button>
+                </a>
+                <a class="a boton-en" href="https://drive.google.com/file/d/17cmF_mb_qe-PCzO4WBBV9vOgJQyorxE3/view?usp=drive_link" target="_blank">
+                    <button class="cta boton-en" data-section="sobre-mi" data-value="boton">Descargar CV</button>
+                </a>
+            </div>
+        </div>
+    </div> 
     
+</main>
+<div class="wave__dark">
+    <img src="./styles/img/wavedarkAboutMe.svg" alt="wavetop" class="wavedarkk">
+</div>
+<div class="wave__down">
+    <img src="./styles/img/wavedown1.svg" alt="wavedown" class="wavedownn">
+</div>
+<main class="skills" id="skills">
+    <div class="skillsContainer contenedor pd">
+        <h1 class="title titles__skills">SKILLS</h1>
+        <div class="skillsOption">
+            <div class="skill">
+                <figure class="skillFigure">
+                    <img class="skillImg" src="./styles/img/HTML.png" alt="html">
+                </figure>
+                <h1 class="proyect__titulo">HTML</h1>
+            </div>
+            <div class="skill">
+                <figure class="skillFigure">
+                    <img class="skillImg" src="./styles/img/CSS.png" alt="css">
+                </figure>
+                <h1 class="proyect__titulo">CSS</h1>
+            </div>
+            <div class="skill">
+                <figure class="skillFigure">
+                    <img class="skillImg" src="./styles/img/JS.png" alt="js">
+                </figure>
+                <h1 class="proyect__titulo">JavaScript</h1>
+            </div>
+            <div class="skill">
+                <figure class="skillFigure">
+                    <img class="skillImg" src="./styles/img/GitHub.png" alt="github">
+                </figure>
+                <h1 class="proyect__titulo">Github</h1>
+            </div>
+            <div class="skill">
+                <figure class="skillFigure">
+                    <img class="skillImg" src="./styles/img/git.png" alt="git">
+                </figure>
+                <h1 class="proyect__titulo">git</h1>
+            </div>
+            <div class="skill">
+                <figure class="skillFigure">
+                    <img class="skillImg" src="./styles/img/React.png" alt="react">
+                </figure>
+                <h1 class="proyect__titulo">React</h1>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="wave">
+    <img src="./styles/img/wavetop2.svg" alt="wavetop2" class="wavetop">
+</div>
+<div class="wave__dark ">
+    <img src="./styles/img/wavedarkFormation.svg" alt="wavedown" class="wavedarkk">
+</div>
+<main class="education__father" id="formación">
+    <div class="education contenedor pd">
+        <h1 class="title" data-section="menu" data-value="seccion-2">Formación</h1>
+        <div class="education__cards">
+            <div class="card">
+                <figure class="educationFigure"> <img class="educationImg" src="./styles/img/platziCurso1.png" alt="platziCurso1"> </figure>
+                <h1 class="education__name">Platzi - Ruta de Desarrollo Web</h1>
+                <div education__data>
+                    <p class="education__description">Curso Práctico de JavaScript</p>
+                    <p class="education__date">2023</p>
+                </div>
+            </div>
+            <div class="card">
+                <figure class="educationFigure"> <img class="educationImg" src="./styles/img/platziCurso2.png" alt="platziCurso2"> </figure>
+                <h1 class="education__name">Platzi - Ruta de Desarrollo Web</h1>
+                <div education__data>
+                    <p class="education__description">Curso Básico de JavaScript</p>
+                    <p class="education__date">2023</p>
+                </div>
+            </div>
+            <div class="card">
+                <figure class="educationFigure"> <img class="educationImg" src="./styles/img/platziCurso3.png" alt="platziCurso3"> </figure>
+                <h1 class="education__name">Platzi - Ruta de Desarrollo Web<</h1>
+                <div education__data>
+                    <p class="education__description">Curso Profesional de Git y GitHub</p>
+                    <p class="education__date">2023</p>
+                </div>
+            </div>
+            <div class="card">
+                <figure class="educationFigure"> <img class="educationImg" src="./styles/img/educationImg-1.jpeg" alt="uttec"> </figure>
+                <h1 class="education__name">universidad Tecnologica de Tecamac</h1>
+                <div education__data>
+                    <p class="education__description">Ing. Biotecnologia</p>
+                    <p class="education__date">2019-2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="wave__down ">
+    <img src="./styles/img/wavedown2.svg" alt="wavedown" class="wavedown">
+</div>
+<div class="wave__dark ">
+    <img src="./styles/img/waveDarkProyects.svg" alt="wavedown" class="wavedarkk">
+</div>
+<main class="proyects" id="proyectos">
+    <div class="proyects__contenedor contenedor">
+        <h1 class="title" data-section="menu" data-value="seccion-3">Proyectos</h1>
+        <div class="proyect__card proyect__card--margin-left" onclick="window.open('https://cursomx.com/', '_blank')">
+            <h1 class="proyect__titulo">CursoMx</h1>
+            <figure class="proyect__figure">
+                <img  class="proyect__img" src="./styles/img/proyecto1dos.png" alt="slide2">
+            </figure>
+            <div class="tools">
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/HTML.png" alt="html">
+                </figure>
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/CSS.png" alt="css">
+                </figure>
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/JS.png" alt="js">
+                </figure>
+            </div>
+        </div>
+        <div class="proyect__card" >
+            <h1 class="proyect__titulo">Landing page Pancake Swap</h1>
+            <figure class="proyect__figure">
+                <img class="proyect__img" src="./styles/img/pancakeSwap1.png" alt="slide1">
+            </figure>
+            <div class="tools">
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/HTML.png" alt="html">
+                </figure>
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/CSS.png" alt="css">
+                </figure>
+            </div>
+        </div>
+        <div class="proyect__card proyect__card--margin-left" onclick="window.open('https://cattariino.github.io/card/', '_blank')">
+            <h1 class="proyect__titulo">Card Presentation</h1>
+            <figure class="proyect__figure">
+                <img  class="proyect__img" src="./styles/img/cardDesktop.png" alt="slide2">
+            </figure>
+            <div class="tools">
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/HTML.png" alt="html">
+                </figure>
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/CSS.png" alt="css">
+                </figure>
+            </div>
+        </div>
+        <div class="proyect__card " onclick="window.open(' https://cattariino.github.io/perfume/', '_blank')">
+            <h1 class="proyect__titulo">Reto FrontEnd Mentor</h1>
+            <figure class="proyect__figure">
+                <img  class="proyect__img" src="./styles/img/perfumeDesktop.png" alt="slide3">
+            </figure>
+            <div class="tools">
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/HTML.png" alt="html">
+                </figure>
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/CSS.png" alt="css">
+                </figure>
+            </div>
+        </div>
+        <div class="proyect__card proyect__card--margin-left" onclick="window.open('https://cattariino.github.io/who-s-that-pokemon/', '_blank')">
+            <h1 class="proyect__titulo">Videojuego</h1>
+            <figure class="proyect__figure">
+                <img class="proyect__img" src="./styles/img/proyecto5uno.png" alt="slide1">
+            </figure>
+            <div class="tools">
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/HTML.png" alt="html">
+                </figure>
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/CSS.png" alt="css">
+                </figure>
+                <figure class="Proyect__tool">
+                    <img class="skillImg" src="./styles/img/JS.png" alt="js">
+                </figure>
+            </div>
+        </div>
+        
+    </div>
+</main>
+<div class="wave__down ">
+    <img src="./styles/img/waveproyects.svg" alt="wavedown" class="wavedown">
+</div>
+<div class="wave__dark ">
+    <img src="./styles/img/wavedarkcontac.svg" alt="wavedown" class="wavedarkk">
+</div>
+<footer class="footer" id="contacto">
+    <div class="footer contenedor">
+        <h1 class="title" data-section="menu" data-value="boton">Contacto</h1>
+        <div class="footer__social">
+            <div class="footerSocial">
+                <a class="a a--color" href="https://github.com/cattariino">
+                    <figure class="social__figure">
+                       <img class="social__img" src="./styles/img/github.svg" alt="github">
+                    </figure>
+                    <p class="social__paragraph">@cattariino</p>
+                </a> 
+            </div>
+            <div class="footerSocial">
+                <a class="a a--color" href="">
+                    <figure class="social__figure">
+                       <img class="social__img" src="./styles/img/mail.svg" alt="mail">
+                    </figure>
+                    <p class="social__paragraph">gabriella.cattarino@gmail.com</p>
+                </a> 
+            </div>
+            <div class="footerSocial">
+                <a class="a a--color" href="https://www.linkedin.com/in/morales-catarino-gabriela-020098297/">
+                    <figure class="social__figure">
+                       <img class="social__img" src="./styles/img/linkedin.svg" alt="linkedin">
+                    </figure>
+                    <p class="social__paragraph">Morales Catarino Gabriela</p>
+                </a> 
+            </div>
+            <div class="footerSocial">
+                <a class="a a--color" href="https://twitter.com/MoralesCat97871">
+                    <figure class="social__figure">
+                       <img class="social__img" src="./styles/img/x-twitte.svg" alt="twitter">
+                    </figure>
+                    <p class="social__paragraph">@MoralesCat</p>
+                </a> 
+            </div>
+        </div>
+        <p class="paragraph__gratefull" data-section="contacto" data-value="diseno">Diseñado por  
+            <a class="a--color" href="#https://github.com/cattariino" >@cattariino</a>
+        </p>
+    </div>
+</footer>
+<script src="./JS/index.js"></script>
 </body>
 </html>
