@@ -181,6 +181,14 @@ body.active .header__container{
     border-bottom: none;
 }
 
+body.active .presentation__roll{
+    color: var(--colors-backgroundAlt);
+}
+
+body.active .paragraph__gratefull{
+    color: var(--colors-backgroundAlt);
+}
+
 body.active .card{ 
     background-image: var(--background-gradient-darkAboutMe);
     color: var(--colors-backgroundAlt);
@@ -190,7 +198,9 @@ body.active .proyects{
     background-image: var(--background-gradient-darkAboutMe);
 }
 
-
+body.active .proyect__titulo{
+    color: var(--colors-backgroundAlt);
+}
 
 body.active .footer{
     background-image: var(--background-gradient-darkContac);
