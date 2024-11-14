@@ -619,10 +619,12 @@ display: block;
     border-radius: 25px;
     width: 600px;
     box-shadow:10px -16px 5px 0px rgba(0,0,0,0.21) ;
+    cursor: pointer;
 }
 
 .proyect__card--margin-left{
     align-self:flex-end;
+    cursor: pointer;
 }
 
 .proyect__titulo{
@@ -655,6 +657,13 @@ display: block;
     width:10%;
 }
 
+.a-proyecto{
+    color: var(--colors-backgroundAlt);
+    text-decoration: none;
+    background-color: var(--colors-palett3);
+    padding: .5em;
+    border-radius: 30px;
+}
 /* footer */
 
 .footer{
